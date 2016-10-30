@@ -1,0 +1,25 @@
+{
+    "author": "maximiocndt@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "sherpa",
+    "pebble": {
+        "displayName": "Classroom Sherpa",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "rocky",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "4662fbe1-9af3-4e62-af28-d5d07c1951c0",
+        "watchapp": {
+            "hiddenApp": true,
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}

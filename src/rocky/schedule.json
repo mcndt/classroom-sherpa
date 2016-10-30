@@ -1,0 +1,46 @@
+[
+  [],
+  [
+    {"start": 828,  "end": 925,  "class": "FRA",  "room": "T109"},
+    {"start": 925,  "end": 1015, "class": "CHEM", "room": "T120"},
+    {"start": 1030, "end": 1125, "class": "WISK", "room": "T010"},
+    {"start": 1125, "end": 1215, "class": "FRA",  "room": "T125"},
+    {"start": 1320, "end": 1420, "class": "WISK", "room": "T009"},
+    {"start": 1420, "end": 1510, "class": "NED",  "room": "T205"},
+    {"start": 1510, "end": 1600, "class": "FYS",  "room": "T122"}
+  ],
+  [
+    {"start": 828,  "end": 925,  "class": "WISK", "room": "T205"},
+    {"start": 925,  "end": 1015, "class": "CHEM", "room": "T120"},
+    {"start": 1030, "end": 1125, "class": "NED",  "room": "T206"},
+    {"start": 1125, "end": 1215, "class": "LOEA", "room": "EDAR"},
+    {"start": 1300, "end": 1400, "class": "AARD", "room": "T106"},
+    {"start": 1400, "end": 1450, "class": "GODS", "room": "T011"},
+    {"start": 1450, "end": 1540, "class": "SWET", "room": "OLCB"}
+  ],
+  [
+    {"start": 828,  "end": 925,  "class": "BIO",  "room": "T120"},
+    {"start": 925,  "end": 1015, "class": "GODS", "room": "T010"},
+    {"start": 1030, "end": 1125, "class": "DEU",  "room": "T126"},
+    {"start": 1125, "end": 1215, "class": "GES",  "room": "T125"}
+  ],
+  [
+    {"start": 828,  "end": 925,  "class": "WISK", "room": "T205"},
+    {"start": 925,  "end": 1015, "class": "SINF", "room": "T120"},
+    {"start": 1030, "end": 1125, "class": "ENG",  "room": "T206"},
+    {"start": 1125, "end": 1215, "class": "NED",  "room": "EDAR"},
+    {"start": 1300, "end": 1400, "class": "EST",  "room": "T106"},
+    {"start": 1400, "end": 1450, "class": "BIO",  "room": "T011"},
+    {"start": 1450, "end": 1540, "class": "FYS",  "room": "OLCB"}
+  ],
+  [
+    {"start": 828,  "end": 925,  "class": "NED",  "room": "T012"},
+    {"start": 925,  "end": 1015, "class": "WISK", "room": "T107"},
+    {"start": 1030, "end": 1125, "class": "FRA",  "room": "T108"},
+    {"start": 1125, "end": 1215, "class": "WISK", "room": "T206"},
+    {"start": 1320, "end": 1420, "class": "LOTZ", "room": "TRZL"},
+    {"start": 1420, "end": 1510, "class": "ENG",  "room": "T009"},
+    {"start": 1510, "end": 1600, "class": "GES",  "room": "T125"}
+  ],
+  []
+]

@@ -1,5 +1,5 @@
 {
-    "author": "maximiocndt@gmail.com",
+    "author": "Maxime Cannoodt",
     "dependencies": {},
     "keywords": [],
     "name": "sherpa",
@@ -19,9 +19,8 @@
         ],
         "uuid": "4662fbe1-9af3-4e62-af28-d5d07c1951c0",
         "watchapp": {
-            "hiddenApp": true,
             "watchface": true
         }
     },
-    "version": "1.0.0"
+    "version": "0.5.0"
 }

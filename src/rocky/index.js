@@ -9,11 +9,12 @@ rocky.on('draw', function(event) {
   
   var w = context.canvas.unobstructedWidth;
   var h = context.canvas.unobstructedHeight;
-//  var date = new Date("2016-10-28T13:41:00");
-  var date = new Date();
+  var date = new Date("2016-10-28T13:03:00");
+ // var date = new Date();
   var course = " -";
   var room = " -";
-  var tc = toTimecode(date);
+ // var tc = toTimecode(date);
+  var tc = date.toLocaleTimeString(undefined, {hour: '2-digit'}) + date.toLocaleTimeString(undefined, {minute: '2-digit'});
   
   // draw time
   context.fillStyle = "white";
@@ -57,11 +58,11 @@ rocky.on('minutechange', function(event) {
 });
 
 function toTimecode(date) {
-  var timestamp = date.getHours();
+/*  var timestamp = date.getHours();
   var tempmin = date.getMinutes();
   if (tempmin.length < 2) {
     tempmin = "0" + tempmin;
   }
   timestamp = timestamp.toString() + tempmin;
-  return timestamp;
+  return timestamp; */
 }

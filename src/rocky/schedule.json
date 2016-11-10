@@ -25,13 +25,13 @@
     {"start": 1125, "end": 1215, "class": "GES",  "room": "T125"}
   ],
   [
-    {"start": 828,  "end": 925,  "class": "WISK", "room": "T205"},
-    {"start": 925,  "end": 1015, "class": "SINF", "room": "T120"},
-    {"start": 1030, "end": 1125, "class": "ENG",  "room": "T206"},
-    {"start": 1125, "end": 1215, "class": "NED",  "room": "EDAR"},
-    {"start": 1300, "end": 1400, "class": "EST",  "room": "T106"},
-    {"start": 1400, "end": 1450, "class": "BIO",  "room": "T011"},
-    {"start": 1450, "end": 1540, "class": "FYS",  "room": "OLCB"}
+    {"start": 828,  "end": 925,  "class": "WISK", "room": "T106"},
+    {"start": 925,  "end": 1015, "class": "SINF", "room": "OLCB"},
+    {"start": 1030, "end": 1125, "class": "ENG",  "room": "T202"},
+    {"start": 1125, "end": 1215, "class": "NED",  "room": "T202"},
+    {"start": 1300, "end": 1400, "class": "EST",  "room": "T009"},
+    {"start": 1400, "end": 1450, "class": "BIO",  "room": "T107"},
+    {"start": 1450, "end": 1540, "class": "FYS",  "room": "T117"}
   ],
   [
     {"start": 828,  "end": 925,  "class": "NED",  "room": "T012"},

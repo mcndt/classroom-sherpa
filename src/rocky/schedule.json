@@ -1,7 +1,7 @@
 [
   [],
   [
-    {"start": 828,  "end": 925,  "class": "FRA",  "room": "T109"},
+    {"start": 828,  "end": 925,  "class": "FRA",  "room": "T202"},
     {"start": 925,  "end": 1015, "class": "CHEM", "room": "T120"},
     {"start": 1030, "end": 1125, "class": "WISK", "room": "T010"},
     {"start": 1125, "end": 1215, "class": "FRA",  "room": "T125"},
@@ -19,7 +19,7 @@
     {"start": 1450, "end": 1540, "class": "SWET", "room": "OLCB"}
   ],
   [
-    {"start": 828,  "end": 925,  "class": "BIO",  "room": "T120"},
+    {"start": 828,  "end": 925,  "class": "BIO",  "room": "T122"},
     {"start": 925,  "end": 1015, "class": "GODS", "room": "T010"},
     {"start": 1030, "end": 1125, "class": "DEU",  "room": "T126"},
     {"start": 1125, "end": 1215, "class": "GES",  "room": "T125"}

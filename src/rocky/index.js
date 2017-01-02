@@ -7,11 +7,10 @@ rocky.on('draw', function(event) {
   // setup
   var context = event.context;
   context.clearRect(0, 0, context.canvas.clientWidth, context.canvas.clientHeight);
-  
   var w = context.canvas.unobstructedWidth;
   var h = context.canvas.unobstructedHeight;
-  //var date = new Date("2017-10-28T13:03:00");
-  var date = new Date();
+  var date = new Date("2017-10-24T13:03:00");
+  //var date = new Date();
   var tc = date.toLocaleTimeString(undefined, {hour: '2-digit'}) + date.toLocaleTimeString(undefined, {minute: '2-digit'});
   
   // draw time
@@ -22,19 +21,20 @@ rocky.on('draw', function(event) {
                    date.toLocaleTimeString(undefined, {minute: '2-digit'}),
                    (w/2), (h/4), w);
   
-  // draw date
+  // draw theme
   context.font = "14px Gothic";
-  context.fillStyle = "#b3b3b3";
+  context.fillStyle = "#55FFAA";
   context.fillText(calendar[yearDay(date)], (w/2), ((h/4)+45), w);
   
-  // draw 365project theme
+  // draw date
+  context.fillStyle = "#b3b3b3";
   context.fillText(date.getDate() + "/" + (date.getMonth() + 1), (w/2), ((h/4)-8), w);
   
   // draw classroom & class
   for (var i = 0; i < schedule[date.getDay()].length; i++) {
     if (tc >= schedule[date.getDay()][i].start && tc < schedule[date.getDay()][i].end) {
       context.font = "24px bold Gothic";
-      context.fillStyle = "#ff6600";
+      context.fillStyle = "#55FFAA";
       context.textAlign = "left";
       context.fillText( schedule[date.getDay()][i].class, 9, (h-33), w);
       context.textAlign = "right";
@@ -43,7 +43,7 @@ rocky.on('draw', function(event) {
   }
   
   // draw line
-  context.strokeStyle = "#ff6600";
+  context.strokeStyle = "#55FFAA";
   context.lineWidth = 2;
   context.beginPath();
   context.moveTo(6, (h-36));
